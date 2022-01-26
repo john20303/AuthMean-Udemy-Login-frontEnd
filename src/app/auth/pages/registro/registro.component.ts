@@ -19,9 +19,9 @@ export class RegistroComponent implements OnInit {
     private _auth: AuthService
   ) {
     this.formRegistro = this.fb.group({
-      name: ['test3', [Validators.required]],
-      email: ['test3@test3.com', [Validators.required]],
-      password: ['La**1234', [Validators.required]],
+      name: ['John Garzón', [Validators.required]],
+      email: ['john820303@hotmail.com', [Validators.required]],
+      password: ['Laurita2013..*', [Validators.required]],
     });
   }
 
